@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <com.dxjia.library.ImageTextButton
+        android:id="@+id/btn_1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        view:itb_bg="@color/button_bg"
+        view:itb_text="Click to Share"
+        view:itb_radius="3dp"
+        view:itb_icon="@mipmap/ic_share_white_48dp">
+    </com.dxjia.library.ImageTextButton>
+
+    <com.dxjia.library.ImageTextButton
+        android:id="@+id/btn_2"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        view:itb_bg="#88ff0000"
+        view:itb_radius="3dp"
+        view:itb_icon="@mipmap/ic_share_white_48dp">
+    </com.dxjia.library.ImageTextButton>
+
+    <com.dxjia.library.ImageTextButton
+        android:id="@+id/btn_3"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        view:itb_bg="#bf4e08"
+        view:itb_icon_position="top"
+        view:itb_icon="@mipmap/ic_share_white_48dp"
+        view:itb_icon_size="56dp"
+        view:itb_radius="8dp"
+        view:itb_text="Click to Share">
+    </com.dxjia.library.ImageTextButton>
+
+    <com.dxjia.library.ImageTextButton
+        android:id="@+id/btn_4"
+        android:layout_below="@id/btn_3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        view:itb_bg="#15de87"
+        view:itb_bg_pressed="#0aaaef"
+        view:itb_icon_position="bottom"
+        view:itb_icon="@mipmap/ic_share_white_48dp"
+        view:itb_icon_size="48dp"
+        view:itb_icon_text_marggin="15dp"
+        view:itb_text="Click to Share"
+        view:itb_text_color="#4d4e50"
+        view:itb_text_size="20sp">
+    </com.dxjia.library.ImageTextButton>
+
+    <com.dxjia.library.ImageTextButton
+        android:id="@+id/btn_5"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        view:itb_bg="@android:color/transparent"
+        view:itb_bg_pressed="#66ffffff"
+        view:itb_icon_position="top"
+        view:itb_icon="@mipmap/ic_cloud_download_black_48dp"
+        view:itb_icon_size="56dp"
+        view:itb_text="Click to Download"
+        view:itb_text_color="@android:color/black">
+    </com.dxjia.library.ImageTextButton>
+
+    <com.dxjia.library.ImageTextButton
+        android:id="@+id/btn_6"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        view:itb_bg="#0080ff"
+        view:itb_text="Click to Share"
+        view:itb_icon="@mipmap/ic_share_white_48dp"
+        view:itb_icon_position="right">
+    </com.dxjia.library.ImageTextButton>
+
+</RelativeLayout>
