@@ -1,6 +1,6 @@
 # ImageTextButton
 Button with icon and text. 
-´øÍ¼±êºÍÎÄ×ÖµÄ°´Å¥£¬Ö§³ÖÍ¼±êÔÚÎÄ×ÖÉÏÏÂ×óÓÒËÄ¸ö·½Ïò£¬¿ÉÖ¸¶¨Í¼±ê³ß´çÒÔ¼°ÓëÎÄ×ÖÖ®¼äµÄ¾àÀë£¬Ö§³ÖÖ¸¶¨±³¾°É«£¬Ö§³ÖÔ²½Ç¡£
+å¸¦å›¾æ ‡å’Œæ–‡å­—çš„æŒ‰é’®ï¼Œæ”¯æŒå›¾æ ‡åœ¨æ–‡å­—ä¸Šä¸‹å·¦å³å››ä¸ªæ–¹å‘ï¼Œå¯æŒ‡å®šå›¾æ ‡å°ºå¯¸ä»¥åŠä¸æ–‡å­—ä¹‹é—´çš„è·ç¦»ï¼Œæ”¯æŒæŒ‡å®šèƒŒæ™¯è‰²ï¼Œæ”¯æŒåœ†è§’ã€‚
 
 # Useage
 ```
@@ -9,18 +9,18 @@ dependencies {
 }
 ```
 
-|×Ö¶Î|±ØÑ¡|ÀàĞÍ|ËµÃ÷|
+|å­—æ®µ|å¿…é€‰|ç±»å‹|è¯´æ˜|
 |----|----|----|----|
-|itb_icon|false|reference|Í¼±ê×ÊÔ´£¬²»Ö¸¶¨Ê±²»ÏÔÊ¾|
-|itb_icon_size|false|dimension|Í¼±ê³ß´ç£¬Ä¬ÈÏ24dpx24dp|
-|itb_text|false|string|°´Å¥ÎÄ×Ö|
-|itb_text_color|false|color|°´Å¥ÎÄ×ÖÑÕÉ«£¬Ä¬ÈÏ°×É«|
-|itb_icon_text_marggin|false|dimension|Í¼±êÓëÎÄ×ÖÖ®¼äµÄ¼ä¾à|
-|itb_icon_position|false|string|Í¼±êÏà¶ÔÓÚÎÄ×ÖµÄÎ»ÖÃ£¬`"left"` `"top"` `"right"` `"bottom"`ËÄÖÖ|
-|itb_bg|false|color|ÆÕÍ¨×´Ì¬ÏÂµÄ°´Å¥±³¾°É«£¬Ä¬ÈÏÀ¶É«|
-|itb_bg_pressed|false|color|°´ÏÂ×´Ì¬ÏÂµÄ°´Å¥±³¾°É«£¬²»Ö¸¶¨Ê±Ä¬ÈÏÎªitb_bgµÄ°ëÍ¸Ã÷×´Ì¬|
-|itb_bg_disabled|false|color|²»¿ÉÓÃ×´Ì¬µÄ°´Å¥±³¾°É«£¬Ä¬ÈÏ»ÒÉ«|
-|itb_radius|false|dimension|°´Å¥Ä¬ÈÏÔ²½Ç,Ä¬ÈÏÎª0dp|
+|itb_icon|false|reference|å›¾æ ‡èµ„æºï¼Œä¸æŒ‡å®šæ—¶ä¸æ˜¾ç¤º|
+|itb_icon_size|false|dimension|å›¾æ ‡å°ºå¯¸ï¼Œé»˜è®¤24dpx24dp|
+|itb_text|false|string|æŒ‰é’®æ–‡å­—|
+|itb_text_color|false|color|æŒ‰é’®æ–‡å­—é¢œè‰²ï¼Œé»˜è®¤ç™½è‰²|
+|itb_icon_text_marggin|false|dimension|å›¾æ ‡ä¸æ–‡å­—ä¹‹é—´çš„é—´è·|
+|itb_icon_position|false|string|å›¾æ ‡ç›¸å¯¹äºæ–‡å­—çš„ä½ç½®ï¼Œ`"left"` `"top"` `"right"` `"bottom"`å››ç§|
+|itb_bg|false|color|æ™®é€šçŠ¶æ€ä¸‹çš„æŒ‰é’®èƒŒæ™¯è‰²ï¼Œé»˜è®¤è“è‰²|
+|itb_bg_pressed|false|color|æŒ‰ä¸‹çŠ¶æ€ä¸‹çš„æŒ‰é’®èƒŒæ™¯è‰²ï¼Œä¸æŒ‡å®šæ—¶é»˜è®¤ä¸ºitb_bgçš„åŠé€æ˜çŠ¶æ€|
+|itb_bg_disabled|false|color|ä¸å¯ç”¨çŠ¶æ€çš„æŒ‰é’®èƒŒæ™¯è‰²ï¼Œé»˜è®¤ç°è‰²|
+|itb_radius|false|dimension|æŒ‰é’®é»˜è®¤åœ†è§’,é»˜è®¤ä¸º0dp|
 
 # Sample
 ```xml
@@ -39,7 +39,7 @@ dependencies {
 ```
 
 # ScreeShot
-![Img](https://github.com/dxjia/ImageTextButton/blob/master/screeshots/imagetextbutton-screenshot.jpeg)
+![Img](https://raw.githubusercontent.com/dxjia/ImageTextButton/master/screenshots/imagetextbutton-screenshot.jpeg)
 
 More reference the `Sample` module
 # License
