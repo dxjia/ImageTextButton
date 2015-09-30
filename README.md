@@ -9,18 +9,18 @@ dependencies {
 }
 ```
 
-|字段|必选|类型|说明|
-|----|----|----|----|
-|itb_icon|false|reference|图标资源，不指定时不显示|
-|itb_icon_size|false|dimension|图标尺寸，默认24dpx24dp|
-|itb_text|false|string|按钮文字|
-|itb_text_color|false|color|按钮文字颜色，默认白色|
-|itb_icon_text_marggin|false|dimension|图标与文字之间的间距|
-|itb_icon_position|false|string|图标相对于文字的位置，`"left"` `"top"` `"right"` `"bottom"`四种|
-|itb_bg|false|color|普通状态下的按钮背景色，默认蓝色|
-|itb_bg_pressed|false|color|按下状态下的按钮背景色，不指定时默认为itb_bg的半透明状态|
-|itb_bg_disabled|false|color|不可用状态的按钮背景色，默认灰色|
-|itb_radius|false|dimension|按钮默认圆角,默认为0dp|
+|字段|类型|说明|
+|----|----|----|
+|itb_icon|reference|图标资源，不指定时不显示|
+|itb_icon_size|dimension|图标尺寸，默认24dpx24dp|
+|itb_text|string|按钮文字|
+|itb_text_color|color|按钮文字颜色，默认白色|
+|itb_icon_text_marggin|dimension|图标与文字之间的间距|
+|itb_icon_position|string|图标相对于文字的位置，`"left"` `"top"` `"right"` `"bottom"`四种|
+|itb_bg|color|普通状态下的按钮背景色，默认蓝色|
+|itb_bg_pressed|color|按下状态下的按钮背景色，不指定时默认为itb_bg的半透明状态|
+|itb_bg_disabled|color|不可用状态的按钮背景色，默认灰色|
+|itb_radius|dimension|按钮默认圆角,默认为0dp|
 
 # Sample
 ```xml
